@@ -54,6 +54,24 @@ int main() {
 
 	printExam(es, en);
 
+	int choice;
+	while (true) {
+		cout << "Choose a task: \n";
+		cout << "1- print girls \n";
+		cout << "2- print man \n";
+		cin >> choice;
+		if (choice == 0)break;
+		switch (choice)
+		{
+		case 1:
+			for (int i = 0; i < sn; i++)
+			{
+				if("woman"==s[i].)
+			}
+		default:
+			break;
+		}
+	}
 	delete[] s;
 	delete[] pr;
 

@@ -60,3 +60,7 @@ bool operator<(Student obj1, Student obj2) {
 bool operator>(Student obj1, Student obj2) {
 	return (obj1.age > obj2.age);
 }
+
+void printStudents(Student s) {
+	cout << s.name << "\t" << s.surname << "\t" << s.age;
+}
