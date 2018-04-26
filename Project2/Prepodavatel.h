@@ -15,6 +15,7 @@ public:
 	Prepod(string name, string, int age, string gender, int group);
 	Prepod(const Prepod& obj);
 	friend class EXAM;
+	string getSname() { return surname; }
 	friend void printPrepod(Prepod *ss, int size);
 	friend void operator >> (istream &in, Prepod &s);
 	friend bool operator==(Prepod obj, string kafedra);

@@ -1,4 +1,4 @@
 3 <- kol-vo studentov
-Konstantin\ Vladimirovich Klyukin\ 22 man 172
-Alexandr\ Olegovich Surinov\ 25 man 171
-Natalya\ Petrovna Gasina\ 23 woman 173
+Vladimirovich \ Konstantin Klyukin \ 22 man 172
+Olegovich\ OlegovichAlexandr Surinov \ 25 man 171
+Olegovna\ Anastasiya Burinova \ 25 man 171

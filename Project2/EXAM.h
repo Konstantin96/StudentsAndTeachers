@@ -18,7 +18,7 @@ public:
 	EXAM(string subjects, string teachers, string students, double grade);
 	EXAM(string, Student sobj, Prepod pobj, double);
 	EXAM(const EXAM&);
-	EXAM create_exam(string subjects, Student sobj, Prepod pobj);
+	void create_exam(string subjects, Student sobj, Prepod pobj,double);
 	virtual ~EXAM();
 };
 

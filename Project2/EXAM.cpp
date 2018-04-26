@@ -21,12 +21,11 @@ EXAM::EXAM(const EXAM&obj) {
 	this->grade = obj.grade;
 }
 
-EXAM EXAM ::create_exam(string subjects, Student sobj, Prepod pobj) {
-	EXAM e;
-	e.subjects = subjects;
-	e.students = sobj.surname;
-	e.teachers = pobj.surname;
-	return e;
+void EXAM ::create_exam(string subjects, Student sobj, Prepod pobj,double grade) {
+	this->subjects = subjects;
+	this->students = sobj.surname;
+	this->teachers = pobj.surname;
+	this->grade = grade;
 }
 
 void printExam(EXAM *es, int size) {

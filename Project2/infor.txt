@@ -1,3 +1,4 @@
-2  <- kol-vo prepodavateley
-Yuriy \Semenovich Ivanov \ 40  man Inforamtions Technology \
-Anastasiya \Semenovna Tishina \ 37  woman Philsophy \
+3  <- kol-vo prepodavateley
+Semenovich\ Yuriy Ivanov \ 40  man Informations Technology \
+Semenovna\ Anastasiya Tishina \ 37  woman Philsophy \
+Petrovna\ Natalya Gasina\ 23 woman Arifmetika \

@@ -122,6 +122,7 @@
     <ClInclude Include="Students.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="exam.txt" />
     <Text Include="in.txt" />
     <Text Include="infor.txt" />
   </ItemGroup>

@@ -32,7 +32,7 @@ void printPrepod(Prepod *ss, int size) {
 	int count = 1;
 	for (int i = 0; i < size; i++)
 	{
-		cout << count++ << " prepodavatel. " << ss[i].name << ss[i].surname << "; " <<
+		cout << count++ << " teacher. " << ss[i].name << ss[i].surname << "; " <<
 			ss[i].age << " age;  gender - " << ss[i].gender << "; " << ss[i].kafedra << " - kafedra\n";
 		cout << "________________________________________________________________________\n";
 	}

@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <time.h>
 #include <iomanip>
 #include "conio.h"
 

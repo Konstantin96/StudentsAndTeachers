@@ -49,5 +49,8 @@
     <Text Include="infor.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="exam.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

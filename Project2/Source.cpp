@@ -2,30 +2,60 @@
 #include "Prepodavatel.h"
 
 int main() {
+	srand(time(NULL));
 	cout << endl;
 	Student *s;
-	ifstream in_file("in.txt");
-	int n;
-	in_file >> n;
-	s = new Student[n];
+	Prepod *pr;
+	EXAM *es;
 
-	for (int i = 0; i < n; i++)
+	ifstream in_file("in.txt");
+	ofstream out_file("exam.txt");
+	int sn,tn,en;
+	in_file >> sn;
+	s = new Student[sn];
+
+	for (int i = 0; i < sn; i++)
 		in_file >> s[i];
 
-	printStudents(s, n);
+	cout << "Students:" << endl;
+	printStudents(s, sn);
 	cout << endl << endl;
-	
 
-	Prepod *pr;
 	ifstream infor("infor.txt");
-	int x;
-	infor >> x;
-	pr = new Prepod[x];
-
-	for (int i = 0; i < x; i++)
+	infor >> tn;
+	pr = new Prepod[tn];
+	
+	for (int i = 0; i < tn; i++)
 		infor >> pr[i];
-	printPrepod(pr, x);
+
+	cout << "Teachers:" << endl;
+	printPrepod(pr, tn);
 	cout << endl << endl;
+
+	en = sn*tn;
+
+	es = new EXAM[en];
+	string subject;
+	int k = 0;
+	double grades;
+	for (int i = 0; i < tn; i++)
+	{
+		cout << "Enter subjects for current teacher\n";
+		cin>>subject;
+		for (int j = 0; j < sn; j++)
+		{
+			grades = rand() % 5+1 ;
+			EXAM e(subject, s[j].getSname(), pr[i].getSname(), grades);
+			es[k++] = e;
+		}
+	}
+
+	cout << "Exam list\n";
+
+	printExam(es, en);
+
+	delete[] s;
+	delete[] pr;
 
 	system("pause");
 }
