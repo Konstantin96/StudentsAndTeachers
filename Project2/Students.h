@@ -13,7 +13,7 @@ public:
 	Student();
 	Student(string name, string, int age, string gender, int group);
 	Student(const Student& obj);
-	friend EXAM;
+	friend class EXAM;
 	friend void printStudents(Student *ss, int size);
 	friend void operator >> (istream &in, Student &s);
 	friend bool operator==(string male, Student obj);

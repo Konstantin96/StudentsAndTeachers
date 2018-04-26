@@ -13,7 +13,7 @@ public:
 	Prepod();
 	Prepod(string name, string, int age, string gender, int group);
 	Prepod(const Prepod& obj);
-	friend EXAM;
+	friend class EXAM;
 	friend void printPrepod(Prepod *ss, int size);
 	friend void operator >> (istream &in, Prepod &s);
 	friend bool operator==(Prepod obj, string kafedra);
