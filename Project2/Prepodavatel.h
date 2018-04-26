@@ -3,6 +3,7 @@
 #include "Libery.h"
 #include "EXAM.h"
 
+
 class Prepod {
 	string name;
 	string surname;
