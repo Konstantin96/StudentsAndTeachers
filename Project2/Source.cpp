@@ -25,6 +25,7 @@ int main() {
 	for (int i = 0; i < x; i++)
 		infor >> pr[i];
 	printPrepod(pr, x);
+	cout << endl << endl;
 
 	system("pause");
 }

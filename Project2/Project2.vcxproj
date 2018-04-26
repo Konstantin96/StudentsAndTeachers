@@ -110,11 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EXAM.cpp" />
     <ClCompile Include="Prepodavatel.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EXAM.h" />
     <ClInclude Include="Libery.h" />
     <ClInclude Include="Prepodavatel.h" />
     <ClInclude Include="Students.h" />

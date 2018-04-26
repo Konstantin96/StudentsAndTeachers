@@ -31,13 +31,15 @@ void printStudents(Student *ss, int size) {
 	int count=1;
 	for (int i = 0; i < size; i++)
 	{
-		cout <<count++<< " student" << ss[i].name << ss[i].surname << "; " <<
-			ss[i].age << " age;  gender - " << ss[i].gender << ";  " << ss[i].group << " - group\n";
+		cout <<count++<< " student. " << ss[i].name << ss[i].surname << "; " <<
+			ss[i].age << " age;  gender - " << ss[i].gender << "; " << ss[i].group << " - group\n";
 		cout << "________________________________________________________________________\n";
 	}
 	
 }
 void operator >> (istream &in, Student &s) {
+	string str;
+	getline(in, str, '\n');
 	getline(in, s.name, '\\');
 	getline(in, s.surname, '\\');
 	in >> s.age >> s.gender >> s.group;

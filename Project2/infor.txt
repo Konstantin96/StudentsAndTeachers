@@ -1,3 +1,3 @@
-2
-Alexandr\ Olegovich Surinov\ 40 man math
-Natalya\ Petrovna Gasina\ 37 woman fizik
+2  <- kol-vo prepodavateley
+Yuriy \Semenovich Ivanov \ 40  man Inforamtions Technology \
+Anastasiya \Semenovna Tishina \ 37  woman Philsophy \
