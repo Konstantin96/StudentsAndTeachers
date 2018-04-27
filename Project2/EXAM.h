@@ -15,6 +15,10 @@ private:
 public:
 	EXAM()=default;
 	friend void printExam(EXAM*, int);
+	void printInfo()
+	{
+		cout << subjects << "\t" << students << "\t\t" << teachers << "\t" << grade << endl;
+	}
 	EXAM(string subjects, string teachers, string students, double grade);
 	EXAM(string, Student sobj, Prepod pobj, double);
 	EXAM(const EXAM&);

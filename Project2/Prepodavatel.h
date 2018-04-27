@@ -17,6 +17,7 @@ public:
 	friend class EXAM;
 	string getSname() { return surname; }
 	friend void printPrepod(Prepod *ss, int size);
+	friend void printPrepod(Prepod s);
 	friend void operator >> (istream &in, Prepod &s);
 	friend bool operator==(Prepod obj, string kafedra);
 	friend bool operator!=(string male, Prepod obj);

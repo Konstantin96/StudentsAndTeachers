@@ -37,6 +37,8 @@ void printExam(EXAM *es, int size) {
 	}
 }
 
+
+
 EXAM::~EXAM()
 {
 }

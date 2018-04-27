@@ -44,11 +44,16 @@ void operator >> (istream &in, Prepod &s) {
 	getline(in, s.name, '\\');
 	getline(in, s.surname, '\\');
 	in >> s.age >> s.gender ;
+	getline(in, s.kafedra, ' ');
 	getline(in, s.kafedra, '\\');
 }
 
 bool operator==(Prepod obj, string kafedra ) {
 	return(obj.kafedra == kafedra);
+}
+
+bool operator>(Prepod obj1, Prepod obj2) {
+	return(obj1.age > obj2.age);
 }
 
 bool operator!=(string male, Prepod obj) {
@@ -59,6 +64,6 @@ bool operator<(Prepod obj1, Prepod obj2) {
 	return (obj1.age < obj2.age);
 }
 
-bool operator>(Prepod obj1, Prepod obj2) {
-	return (obj1.age > obj2.age);
+void printPrepod(Prepod s) {
+	cout << s.name << "\t" << s.surname << " " << s.age << " - age\n";
 }
