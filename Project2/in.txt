@@ -1,4 +1,6 @@
-3 <- kol-vo studentov
-Vladimirovich \ Konstantin Klyukin \ 22 man 172
-Olegovich\ OlegovichAlexandr Surinov \ 25 man 171
-Olegovna\ Anastasiya Burinova \ 25 man 171
+5 <- kol-vo studentov
+Konstantin\ Klyukin  \ 22 man 172
+Tatyana\ Boyko\   25 woman 171
+Vladimir\ Stroiko\ 24 man 172
+Daniyar\ Sosin\ 21 man 171
+Yulya\ Lozhina\ 20 woman 171

@@ -49,6 +49,10 @@ bool operator==(string male, Student obj) {
 	return(male == obj.gender);
 }
 
+bool operator==(int group, Student obj) {
+	return(group == obj.group);
+}
+
 bool operator!=(string male, Student obj) {
 	return(male != obj.gender);
 }
@@ -62,5 +66,6 @@ bool operator>(Student obj1, Student obj2) {
 }
 
 void printStudents(Student s) {
-	cout << s.name << "\t" << s.surname << "\t" << s.age;
+	cout << s.name << "\t" << s.surname << " " << s.age<<" - age\n";
 }
+

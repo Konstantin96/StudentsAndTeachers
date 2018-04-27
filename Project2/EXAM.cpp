@@ -32,8 +32,8 @@ void printExam(EXAM *es, int size) {
 	int count = 1;
 	for (int i = 0; i < size; i++)
 	{
-		cout << count++ <<setw(35) << es[i].subjects << setw(15)<< es[i].students << setw(15) <<
-			es[i].teachers << setw(6) << es[i].grade <<"\n";
+		cout << count++ <<setw(35) << es[i].subjects << setw(15)<< " student - "<<es[i].students << setw(15) <<
+			" teacher - "<<es[i].teachers << setw(6) << es[i].grade <<"\n";
 	}
 }
 

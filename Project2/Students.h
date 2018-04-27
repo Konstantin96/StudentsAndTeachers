@@ -19,6 +19,7 @@ public:
 	friend void printStudents(Student *ss, int size);
 	friend void operator >> (istream &in, Student &s);
 	friend bool operator==(string male, Student obj);
+	friend bool operator==(int group, Student obj);
 	friend bool operator!=(string male, Student obj);
 	friend bool operator<(Student obj1, Student obj2);
 	friend bool operator>(Student obj1, Student obj2);
